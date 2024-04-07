@@ -1,15 +1,15 @@
 let brandImages = {
-  Lenovo: "../img/brands/Lenovo.svg",
-  Samsung: "../img/brands/Samsung.svg",
-  Apple: "../img/brands/Apple.svg",
-  ViewSonic: "../img/brands/ViewSonic.svg",
-  Bosch: "../img/brands/Bosch.svg",
-  hp: "../img/brands/hp.svg",
-  Acer: "../img/brands/Acer.svg",
-  Sony: "../img/brands/Sony.svg",
-  Lenovo2: "../img/brands/Lenovo2.svg",
-  Samsung2: "../img/brands/samsung2.svg",
-  Apple2: "../img/brands/Apple2.svg",
+  Lenovo: "img/brands/Lenovo.svg",
+  Samsung: "img/brands/Samsung.svg",
+  Apple: "img/brands/Apple.svg",
+  ViewSonic: "img/brands/ViewSonic.svg",
+  Bosch: "img/brands/Bosch.svg",
+  hp: "img/brands/hp.svg",
+  Acer: "img/brands/Acer.svg",
+  Sony: "img/brands/Sony.svg",
+  Lenovo2: "img/brands/Lenovo2.svg",
+  Samsung2: "img/brands/samsung2.svg",
+  Apple2: "img/brands/Apple2.svg",
 }
 
 
