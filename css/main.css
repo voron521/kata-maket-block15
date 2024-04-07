@@ -171,6 +171,9 @@ body{
     width: 240px;
     margin-left: 16px;
 }
+.swiper-container .swiper-wrapper{
+    display: flex;
+}
 .swiper-wrapper.swiper-slide{
     
     
