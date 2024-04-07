@@ -1,1 +1,1 @@
-https://github.com/voron521/kata-maket-block15/tree/main
+[https://voron521.github.io/kata-maket-block15/#brend](https://voron521.github.io/kata-maket-block15/#brend)
