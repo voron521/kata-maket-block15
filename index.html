@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт электроники</title>
+    <meta name="keywords" content="ремонт, телефоны, сервисный центр">
+    <meta name="description" content="ремонт телефонов ид ругих устройств в сервисном центре">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts/stylesheet.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    
+    
+</head>
+<body>
+    <div class = "main-wrapper">
+        <header>
+            <div class="header-wrapper">
+                <h1 class = "header-wrapper__main-h1 header-wrapper__main-h1--margin">Ремонт техники различных брендов</h1>
+            </div>
+        </header>
+
+        <main class ="main-info">
+            
+            <nav class = "main-info__nav">
+                
+                <template id = "main-info__main-menu" > <!-- Шаблон для обычного меню   -->
+                    <li class = "main-info__list-item main-info__list-item--margin">
+                        <a class = "main-info__link" href="#brend">
+                            <img src = "" alt="бренд" class="main-info__img">
+                        </a>
+                    </li>
+                </template>
+
+                <template id = "main-info__swiper-menu" > <!-- Шаблон для Swiper меню   -->
+                        <div class="swiper-slide">
+                            <a class = "main-info__link" href="#brend">
+                                <img src = "" alt="бренд" class="main-info__img">
+                            </a>
+                        </div>
+                </template>
+
+                <div class="swiper-container swiper-container--visible">
+                    <div class="swiper-wrapper">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class = "main-info__hidden-wrapper main-info__hidden-wrapper--visible">
+                    <ul class = "main-info__list-nav main-info__list-nav--margin">
+
+                    </ul>
+                </div>
+                <button type="button" class = "main-info__button main-info__button--visible">
+                    <img src= "img/arrow-open-close.svg" alt="Иконка" class = "main-info__img-button">
+                    <p class = "main-info--batton-txt">Показать все</p>
+                </button>
+            </nav>
+        </main>
+
+        <footer class = "footer">
+   
+        </footer>
+    </div>
+
+
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+       
+        new Swiper('.swiper-container', {
+           
+            spaceBetween: 16, // Расстояние между слайдами
+            speed: 1000, // Скорость анимации в миллисекундах
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+
+        });
+    </script>
+
+
+   
+    
+</body>
+</html>
