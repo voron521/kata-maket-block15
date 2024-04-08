@@ -174,7 +174,7 @@ body{
 .swiper-container .swiper-wrapper{
     display: flex;
 }
-.swiper-wrapper.swiper-slide{
+.swiper-wrapper .swiper-slide{
     height: 72px;
     width: 240px;
     
